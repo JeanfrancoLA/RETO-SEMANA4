@@ -82,7 +82,9 @@
 }
 
 
-.main-container {}
+.main-container {
+    display: none;
+}
 
 .main-calculadora,
 .main-mayornum {
