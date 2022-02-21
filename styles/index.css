@@ -1,0 +1,116 @@
+:root{
+    scroll-behavior: smooth;
+}
+
+.body {
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Roboto Serif', sans-serif;
+
+}
+
+.header {
+    position: relative;
+    height: 6.5vh;
+    color: white;
+    /* width: 100vw; */
+}
+
+.header-nav {
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    padding: 0 2.5rem;
+    margin: 0 auto;
+}
+
+.header-nav__link-logo-container {
+    height: 3rem;
+}
+
+.header-nav__link-logo {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.header-usuario-link {
+    text-decoration: none;
+    color: rgb(88, 0, 146);
+
+}
+
+
+.inicio {
+    height: 93.5vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("http://mathstuition.net/wp-content/uploads/2015/11/Math-Used-in-Cartoon-Making-for-Kids2-1170x500.jpg");
+    background-size: cover;
+    color: white;
+
+}
+
+.filedset {
+    border: .25rem solid rgb(0, 4, 255);
+    background-color: rgba(42, 61, 165, 0.438);
+    padding: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.25rem;
+
+}
+
+.saludo {
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+    right: 1rem;
+}
+
+.saludo__user-name {
+    position: absolute;
+    right: 9rem;
+    bottom: 10rem;
+    font-size: 2rem;
+}
+
+
+.main-container {}
+
+.main-calculadora,
+.main-mayornum {
+    height: 93.5vh;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 5rem 1rem;
+
+}
+
+.form-floating>.form-control {
+    padding: .5rem;
+}
+
+.reloj-container {
+    position: absolute;
+    position: fixed;
+    background-color: #000000c4;
+    bottom: 2rem;
+    left: 0;
+    padding: 1rem;
+}
+
+.reloj {
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-weight: 100;
+    font-family: 'Lucida Sans Unicode';
+}
